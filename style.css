@@ -1,0 +1,36 @@
+:root {
+  --black: #272d3b;
+  --red: #ed176f;
+}
+
+/* body {
+  margin-top: 50px;
+} */
+
+/* .fixed-top {
+  background-color: #272d3b;
+} */
+
+nav {
+  background-color: var(--black);
+  opacity: 0.4;
+}
+
+ul.nav a:hover {
+  color: var(--red) !important;
+}
+
+.container-carousel {
+  height: 100vh;
+  padding: 0;
+}
+
+.container-carousel img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.carousel-item {
+  transition: transform 4s ease, opacity 0.5s ease-out;
+}
